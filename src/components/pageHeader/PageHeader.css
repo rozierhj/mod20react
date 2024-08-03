@@ -1,10 +1,10 @@
 .PageHeader{
-    position: fixed;
-    top:0;
-    left:0;
+    /* position: fixed; */
+    /* top:0;
+    left:0; */
     width:100%;
     padding: 20px;
-    z-index:1000;
+    /* z-index:1000; */
     height: 50px;
     background-color: lightblue;
     text-align: center;
