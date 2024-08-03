@@ -2,6 +2,7 @@
 import './PageHeader.css';
 import MenuOptions from './MenuOptions';
 import Name from './Name';
+import githubIcon from '../../assets/github.svg';
 
 function PageHeader(){
 
@@ -11,6 +12,7 @@ function PageHeader(){
 
             <Name />
             <MenuOptions />
+            
 
         </div>
     );
