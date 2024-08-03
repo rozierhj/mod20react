@@ -13,7 +13,7 @@ function Pages(){
            <AboutMe />
            <Contact />
            <Resume />
-           <Portfolio />
+           {/* <Portfolio /> */}
 
         </div>
     );

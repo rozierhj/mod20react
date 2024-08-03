@@ -1,4 +1,7 @@
 import './Portfolio.css';
+import PageTitle from './PageTitle';
+import CardCollection from './CardCollection';
+
 
 function Portfolio(){
 
@@ -6,7 +9,8 @@ function Portfolio(){
     return (
         <div className="Portfolio">
 
-            
+            <PageTitle />
+            <CardCollection />
 
         </div>
     );

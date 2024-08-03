@@ -1,0 +1,23 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+
+.Contact .container{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.PageTitle{
+    margin-bottom: 20px;
+}
+
+.ContactForm{
+    width: 100%;
+}
