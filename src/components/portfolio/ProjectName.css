@@ -8,7 +8,7 @@
     position: absolute;
     top: 33%;
     width: 100%;
-    color: white;
+    color: black;
     padding: 0px;
     box-sizing: border-box;
     z-index: 1;
@@ -21,7 +21,7 @@
 
 .ProjectName a{
     margin-right: 20px;
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     display: flex;
@@ -30,10 +30,10 @@
 
 .ProjectName a:hover{
     text-decoration: underline;
-    color: green;
+    color: purple;
 }
 
 .github-icon:hover{
-    color: green;
-    background-color: green;
+    color: purple;
+    background-color: purple;
 }
