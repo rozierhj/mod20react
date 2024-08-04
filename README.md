@@ -26,7 +26,7 @@
 
   #### [link to the application demonstration video](#)
   #### [link to the git repository](https://github.com/rozierhj/mod20react)
-  #### [link to the website](https://mod14mvc-stbk.onrender.com/)
+  #### [link to the website](https://mod20-react-portfolio.netlify.app/)
 
     When the user options the webpage they are brought to the About Me section that has a short bio about the developer. There is a menu in the header that the user can choose from, it has four options: About Me, Portfolio, Contact and Resume. The menu option that corresponds to the page the user is on should be highlighted so that they know what page they are on.
     When the user is on the Protfolio page, there are cards they can click on that represent projects the developer has worked on. If the user clicks on the name of the project they will be taken to the webpage for that project. If the click on the github icon they will be taken to the repo for that project.

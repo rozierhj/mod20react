@@ -16,8 +16,15 @@ function ContactForm(){
     const handleSubmit = (e) => {
 
         e.preventDefault();
-
-        console.log('Form submitted',{name, email, message});
+        //acknowledge you recieved submital then clear form
+        alert(`We got your submission!\n\n\nName: ${name}\n\nEmail: ${email}\n\nMessage: ${message}`);
+        setName('');
+        setEmail('');
+        setMessage('');
+        setNameError(false);
+        setEmailError(false);
+        setMessageError(false);
+        setEmailInvalid(false);
     }
 
     //statement defines the different possible errors we will check
