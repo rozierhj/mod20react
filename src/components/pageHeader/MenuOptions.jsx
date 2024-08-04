@@ -2,7 +2,7 @@
 import './MenuOptions.css';
 import MenuChoice from './MenuChoice';
 
-function MenuOptions({setActivePage}){
+function MenuOptions({setActivePage, activePage}){
 
     const choices = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
@@ -12,7 +12,9 @@ function MenuOptions({setActivePage}){
                 <MenuChoice 
                 key={index} 
                 text={choice} 
-                onClick={()=> setActivePage(choice)}/>
+                onClick={()=> setActivePage(choice)}
+                isActive ={activePage === choice}
+                />
                             
             ))}
         </div>

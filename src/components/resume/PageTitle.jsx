@@ -6,7 +6,7 @@ function PageTitle(){
     return (
         <div className="PageTitle">
 
-            
+            Resume
 
         </div>
     );

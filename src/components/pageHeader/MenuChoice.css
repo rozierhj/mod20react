@@ -2,3 +2,14 @@
     cursor: pointer;
     color: green;
 }
+
+.MenuChoice.active{
+    color: green;
+}
+
+.MenuChoice{
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    text-decoration: none;
+}

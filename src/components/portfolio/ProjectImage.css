@@ -8,11 +8,21 @@
     border-radius: 8px;
 }
 
-.ProjectImage img{
+.ProjectImage.wasSelected{
     width: 100%;
     border-radius: 10px;
     display: block;
     margin-bottom: 10px;
     filter: blur(8px);
     object-fit: cover;
+}
+
+.ProjectImage.notSelected{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    filter: blur(0px);
+    object-fit: cover;
+    z-index: 10;
 }

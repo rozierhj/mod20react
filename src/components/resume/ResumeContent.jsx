@@ -1,4 +1,5 @@
 import './ResumeContent.css';
+import {useState} from 'react';
 
 function ResumeContent(){
 
@@ -48,6 +49,7 @@ function ResumeContent(){
     return (
         <div className="ResumeContent">
 
+        <a href="/Resume.Hunter.Rozier.pdf" download className='download'>Download Resume</a>
         <h2>Experience</h2>
         {jobs.map((job, index)=>(
             <div key={index} className='job'>

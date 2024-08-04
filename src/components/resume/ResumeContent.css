@@ -1,0 +1,45 @@
+.download{
+    margin-left: 60px;
+    cursor: pointer;
+}
+  
+  h2 {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    width: 500px;
+    margin-left: 50px;
+  }
+  
+  .job, .education {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: slategray;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  
+  .job p, .education p {
+    margin: 10px 0;
+    color: white;
+  }
+  
+  strong {
+    color: white;
+  }
+    
+    h2 {
+      font-size: 1.5em;
+    }
+    
+    .job, .education {
+      padding: 15px;
+    }
+    
+    .job p, .education p {
+      margin: 8px 0;
+    }
