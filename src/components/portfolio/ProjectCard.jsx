@@ -9,8 +9,8 @@ function ProjectCard({name, picture, webpage, repo}){
     return (
         <div className="ProjectCard">
 
-            <ProjectName name={name}/>
-            <ProjectImage picture={picture} webpage={webpage} repo={repo}/>
+            <ProjectName name={name} webpage={webpage} repo={repo}/>
+            <ProjectImage picture={picture} repo={repo}/>
 
 
         </div>

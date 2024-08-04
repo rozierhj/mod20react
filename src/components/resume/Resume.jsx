@@ -1,4 +1,5 @@
 import './Resume.css';
+import ResumeContent from './ResumeContent';
 
 function Resume(){
 
@@ -6,7 +7,7 @@ function Resume(){
     return (
         <div className="Resume">
 
-            
+            <ResumeContent />
 
         </div>
     );

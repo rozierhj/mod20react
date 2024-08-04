@@ -1,0 +1,24 @@
+.ProjectName{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ProjectName a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.ProjectName a:hover{
+    text-decoration: underline;
+}
+
+.github-icon{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
