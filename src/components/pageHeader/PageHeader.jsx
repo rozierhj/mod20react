@@ -10,10 +10,13 @@ function PageHeader(){
     const currentPage = useLocation().pathname;
 
     return (
+        //header styling image and users name
         <div className="PageHeader">
             <img src={headerImage} alt="header background" className='headerImage' />
             <Name />
         <div className="MenuOptions">
+
+    {/* About me menu selection option */}
       <div className="MenuChoice">
         <Link
           to="/"
@@ -22,14 +25,8 @@ function PageHeader(){
           About Me
         </Link>
       </div>
-      <div className="MenuChoice">
-        <Link
-          to="/Contact"
-          className={currentPage === '/Contact' ? 'MenuChoice active' : 'MenuChoice'}
-        >
-          Contact
-        </Link>
-      </div>
+
+    {/* Portfolio menu selection option */}
       <div className="MenuChoice">
         <Link
           to="/Portfolio"
@@ -38,6 +35,18 @@ function PageHeader(){
           Portfolio
         </Link>
       </div>
+
+    {/* Contact menu selection option */}
+      <div className="MenuChoice">
+        <Link
+          to="/Contact"
+          className={currentPage === '/Contact' ? 'MenuChoice active' : 'MenuChoice'}
+        >
+          Contact
+        </Link>
+      </div>
+
+    {/* Resume menu selection option */}
       <div className="MenuChoice">
         <Link
           to="/Resume"
@@ -46,9 +55,11 @@ function PageHeader(){
           Resume
         </Link>
       </div>
+
         </div>
         </div>
     );
 }
 
+//returns page header with user name and four menu options: About Me, Portfolio, Contact and Resume
 export default PageHeader;

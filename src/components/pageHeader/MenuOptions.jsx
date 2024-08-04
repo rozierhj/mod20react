@@ -21,4 +21,5 @@ function MenuOptions({setActivePage, activePage}){
     );
 }
 
+//returns all of the menu options as a group as a parent element for each individual option
 export default MenuOptions;

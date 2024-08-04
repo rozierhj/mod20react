@@ -3,9 +3,11 @@ import './ContactForm.css';
 
 function ContactForm(){
 
+    //form fields
     const [name, setName] = useState();
     const [email, setEmail] = useState();
     const [message, setMessage] = useState();
+    //handle errors in the field entries
     const [nameError, setNameError] = useState(false);
     const [emailError, setEmailError] = useState(false);
     const [messageError, setMessageError] = useState(false);
@@ -18,25 +20,33 @@ function ContactForm(){
         console.log('Form submitted',{name, email, message});
     }
 
+    //statement defines the different possible errors we will check
     const handleBlur = (field) =>{
         switch(field){
             case 'name':
+                //was the name set
                 if(!name) setNameError(true);
                 break;
             case 'email':
                 if (!email) {
+                    //was the email set
                     setEmailError(true);
+                    //is email valid
                     setEmailInvalid(false);
                   } else {
+                    //valid email test
                     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
                     if (!emailPattern.test(email)) {
+                        //is email valid
                       setEmailInvalid(true);
                     } else {
+                        //is email valid
                       setEmailInvalid(false);
                     }
                   }
                   break;
             case 'message':
+                //is message filled out
                 if(!message) setMessageError(true);
                 break;
             default:
@@ -53,8 +63,10 @@ function ContactForm(){
             value={name}
             onChange={(e)=>{
                 setName(e.target.value)
+                //name was not populated
                 setNameError(false);
             }}
+            //name not populated message
             onBlur={()=>handleBlur('name')}
             required />
             {nameError && <span className="error">Please fill out name field.</span>}
@@ -65,9 +77,12 @@ function ContactForm(){
             value={email}
             onChange={(e)=>{
                 setEmail(e.target.value)
+                //email not populated
                 setEmailError(false);
+                //bad email
                 setEmailInvalid(false);
             }}
+            //messages for email not pipolated or invalid email
             onBlur={()=>handleBlur('email')}
             required
              />
@@ -80,8 +95,10 @@ function ContactForm(){
              value={message}
              onChange={(e)=>{
                 setMessage(e.target.value)
+                //message not populated
                 setMessageError(false);
             }}
+            //message for message not populated
             onBlur={()=>handleBlur('message')}
              required
              > 
@@ -92,5 +109,5 @@ function ContactForm(){
         </form>
     )
 }
-
+//returns the created form with all of its fields and buttons
 export default ContactForm;

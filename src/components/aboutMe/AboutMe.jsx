@@ -17,4 +17,5 @@ function AboutMe(){
     );
 }
 
+//returns the combination of the pages title, users profile image and their bio
 export default AboutMe;

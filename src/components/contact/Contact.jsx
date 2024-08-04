@@ -17,4 +17,5 @@ function Contact(){
     );
 }
 
+//returns combination of form and title of the page
 export default Contact;

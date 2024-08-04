@@ -18,5 +18,6 @@ I attended Virginia Commonwealth University, where I earned my bachelor's degree
     );
 }
 
+//returns the users bio
 export default Bio;
 

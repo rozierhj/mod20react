@@ -1,3 +1,4 @@
+/* page name and github icon should res on top of the project cards image */
 .ProjectCard{
     position: relative;
     display: flex;

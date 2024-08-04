@@ -3,6 +3,7 @@ import {useState} from 'react';
 
 function ResumeContent(){
 
+    //list of all jobs current and past along with key info such as the company, position heald, dates of employement and skills demonstrated
     const jobs = [
 
         {
@@ -40,6 +41,7 @@ function ResumeContent(){
 
     ]
 
+    //detailed info on users education
     const education = {
         school: 'Virginia Commenwealth University',
         degree: 'Bachelors',
@@ -49,8 +51,10 @@ function ResumeContent(){
     return (
         <div className="ResumeContent">
 
+        {/* users resume is in public folder as a pdf and can be downloaded */}
         <a href="/Resume.Hunter.Rozier.pdf" download className='download'>Download Resume</a>
         <h2>Experience</h2>
+        {/* returns all job items */}
         {jobs.map((job, index)=>(
             <div key={index} className='job'>
 
@@ -69,8 +73,16 @@ function ResumeContent(){
             <p><strong>Major: </strong>{education.major}</p>
         </div>
 
+        {/* software and programming skills */}
+        <h2>Skills</h2>
+        <div className='education'>
+            <p><strong>Software: </strong>SolidWorks, SAP, Fusion 360 Manage</p>
+            <p><strong>Languages: </strong>JavaScript, HTML, CSS, C++</p>
+        </div>
+
         </div>
     );
 }
 
+//returns all of the users resume data and a link to download the resume as a pdf
 export default ResumeContent;

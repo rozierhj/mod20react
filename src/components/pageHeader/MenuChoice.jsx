@@ -14,4 +14,5 @@ function MenuChoice({text, onClick, isActive}){
     );
 }
 
+//component returns a single menu option element
 export default MenuChoice;

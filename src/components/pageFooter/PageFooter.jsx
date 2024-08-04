@@ -14,4 +14,5 @@ function PageFooter(){
     );
 }
 
+//returns the page footer
 export default PageFooter;

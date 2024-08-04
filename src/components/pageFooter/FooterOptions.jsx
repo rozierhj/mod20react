@@ -10,12 +10,15 @@ function FooterOptions(){
 
     
     const choices = [
+        //users github page
         <a href="https://github.com/rozierhj" target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="GitHub Icon" className='icon' />
         </a>,
+        //users linkedin page
         <a href="https://www.linkedin.com/in/hunter-rozier/" target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="LinkedIn Icon" className='icon' />
         </a>,
+        //users stackoverflow page
         <a href="https://stackoverflow.com/users/23466604/hunter-rozier" target="_blank" rel="noopener noreferrer">
             <img src={stackOverflowIcon} alt="Stack Overflow Icon" className='icon' />
         </a>
@@ -31,4 +34,5 @@ function FooterOptions(){
     );
 }
 
+//returns three options for the user to select grouped into a parent element
 export default FooterOptions;

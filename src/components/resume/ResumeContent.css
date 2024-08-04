@@ -1,3 +1,5 @@
+/* resume is divided into 3 sections sepereated by h2 title and black line */
+/* each job element or education or skill element sits in its own card */
 .download{
     margin-left: 60px;
     cursor: pointer;
@@ -13,6 +15,7 @@
     margin-left: 50px;
   }
   
+  /* job education element cards */
   .job, .education {
     margin-left: 50px;
     margin-bottom: 20px;

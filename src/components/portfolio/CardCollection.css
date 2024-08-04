@@ -1,3 +1,4 @@
+/* the cards will be layed out in two columns */
 .CardCollection{
     height: 100%;
     display:grid;

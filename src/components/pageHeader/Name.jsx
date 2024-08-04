@@ -9,5 +9,5 @@ function Name(){
         </div>
     );
 }
-
+//returns the name of the user to be placed in the header
 export default Name;

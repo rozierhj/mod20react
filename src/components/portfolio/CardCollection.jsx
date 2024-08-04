@@ -47,5 +47,5 @@ function CardCollection(){
         </div>
     );
 }
-
+//returns all of the cards grouped together in a single parent element
 export default CardCollection;

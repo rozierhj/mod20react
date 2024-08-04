@@ -15,4 +15,5 @@ function Resume(){
     );
 }
 
+//returns combination of the resume elements and the page title
 export default Resume;

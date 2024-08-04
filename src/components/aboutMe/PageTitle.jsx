@@ -12,4 +12,5 @@ function PageTitle(){
     );
 }
 
+//returns the title of the page which matches its name on the menu
 export default PageTitle;

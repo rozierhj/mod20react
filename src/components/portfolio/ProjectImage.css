@@ -1,3 +1,4 @@
+
 .ProjectImage{
     position: relative;
     height: 100%;
@@ -8,6 +9,7 @@
     border-radius: 8px;
 }
 
+/* project image is blured and in back if the card is selected */
 .ProjectImage.wasSelected{
     width: 100%;
     border-radius: 10px;
@@ -17,7 +19,8 @@
     object-fit: cover;
 }
 
-.ProjectImage.notSelected{
+/* if the card is not selected or being hovered over then the image should be clear and the only thing visible */
+.ProjectImage.notSelected.notHovered{
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -25,4 +28,14 @@
     filter: blur(0px);
     object-fit: cover;
     z-index: 10;
+}
+
+/* if the user is hovering over the card then the image should be blurred and in the back */
+.ProjectImage.wasHovered.notSelected{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    filter: blur(4px);
+    object-fit: cover;
 }

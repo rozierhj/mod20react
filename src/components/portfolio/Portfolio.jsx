@@ -15,5 +15,5 @@ function Portfolio(){
         </div>
     );
 }
-
+//returns all portfolio page elements
 export default Portfolio;

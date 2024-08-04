@@ -14,4 +14,5 @@ function MyProfileImage(){
     );
 }
 
+//returns the users profile image
 export default MyProfileImage;

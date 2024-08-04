@@ -13,4 +13,5 @@ function FooterChoice({icon}){
     );
 }
 
+//compionent returns a menu option as a single element
 export default FooterChoice;

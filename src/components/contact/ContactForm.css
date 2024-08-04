@@ -1,3 +1,4 @@
+/* all elements on the contact form in one column that is styled: field name and then field underneath it */
 .ContactForm{
     display: flex;
     flex-direction: column;

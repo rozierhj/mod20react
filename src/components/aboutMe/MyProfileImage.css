@@ -1,8 +1,7 @@
+/* profile image must be in line with the page title */
 .MyProfileImage{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* height: 100%; */
 }
 
 .MyProfileImage img{
