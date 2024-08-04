@@ -4,7 +4,7 @@ import MenuOptions from './MenuOptions';
 import Name from './Name';
 import headerImage from '../../assets/header.png';
 
-function PageHeader(){
+function PageHeader({setActivePage}){
 
 
     return (
@@ -12,7 +12,7 @@ function PageHeader(){
             <img src={headerImage} alt="header background" className='headerImage' />
 
             <Name />
-            <MenuOptions />
+            <MenuOptions setActivePage={setActivePage}/>
             
 
         </div>

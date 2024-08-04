@@ -2,11 +2,11 @@
 import './MenuChoice.css';
 
 
-function MenuChoice({text}){
+function MenuChoice({text, onClick}){
 
 
     return (
-        <div className="MenuChoice">
+        <div className="MenuChoice" onClick={onClick}>
 
             {text}
 

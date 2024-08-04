@@ -1,10 +1,5 @@
 .PageFooter{
-    /* position: fixed;
-    bottom:0;
-    left:0; */
-    width:100%;
-    /* padding: 20px; */
-    z-index:1000;
+    position: relative;
     height: 100px;
     background-color: slategrey;
     text-align: center;

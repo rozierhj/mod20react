@@ -1,0 +1,4 @@
+.MenuChoice:hover{
+    cursor: pointer;
+    color: green;
+}

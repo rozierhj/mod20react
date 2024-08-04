@@ -1,10 +1,9 @@
 .ContactForm{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: aqua;
-    padding: 15px;
+    width: 100%;
+    background-color:slategrey;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -24,10 +23,14 @@
     box-sizing: border-box;
 }
 
+.ContactForm textarea{
+    height: 200px;
+}
+
 .ContactForm button{
     padding: 10px;
-    background-color: rgb(50, 139, 168);
-    color: white;
+    background-color: lightgray;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;

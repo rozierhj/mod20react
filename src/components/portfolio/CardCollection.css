@@ -1,14 +1,9 @@
 .CardCollection{
+    height: 100%;
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap: 30px;
-    padding: 20px; 
+    /* padding: 20px;  */
     justify-items: center;
     align-items: center;
-}
-
-@media (max-width:600px){
-    .CardCollection{
-        grid-template-columns: 1fr;
-    }
 }
