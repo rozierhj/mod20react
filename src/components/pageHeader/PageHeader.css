@@ -3,18 +3,26 @@
     /* top:0;
     left:0; */
     width:100%;
-    padding: 20px;
+    padding-bottom: 20px;
     /* z-index:1000; */
-    height: 50px;
-    background-color: lightblue;
+    height: 100px !important;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.github-icon{
+/* .github-icon{
     width:16px;
     height:16px;
     fill:currentColor;
+} */
+
+.headerImage{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    filter: blur(3px);
 }

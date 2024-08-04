@@ -10,9 +10,9 @@ function Pages(){
     return (
         <div className="Pages">
 
-           <AboutMe />
-           <Contact />
-           <Resume />
+           {/* <AboutMe /> */}
+           {/* <Contact /> */}
+           {/* <Resume /> */}
            <Portfolio />
 
         </div>

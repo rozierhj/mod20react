@@ -1,0 +1,10 @@
+.Name{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 10px;
+    color:black;
+    text-shadow: 2px 2px 0 slategrey, -2px -2px 0 slategrey, 2px -2px 0 slategray, -2px 2px 0 slategray;
+    margin-left: 50px;
+
+}

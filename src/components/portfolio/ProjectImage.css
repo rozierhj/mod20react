@@ -1,6 +1,6 @@
 .ProjectImage{
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     /* padding: 10px; */
     display: flex;
     flex-direction: column;
@@ -12,12 +12,11 @@
 
 .ProjectImage img{
     width: 100%;
-    height: auto;
+    /* height: auto; */
     border-radius: 10px;
-    max-width: 100%;
     display: block;
     margin-bottom: 10px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 /* .ProjectImage .github-icon{
