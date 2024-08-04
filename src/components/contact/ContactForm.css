@@ -42,4 +42,9 @@
 
 .ContactForm button:hover{
 background-color: rgb(13, 13, 97);
+color: white;
+}
+
+.ContactForm .error{
+    margin-bottom: 10px;
 }
